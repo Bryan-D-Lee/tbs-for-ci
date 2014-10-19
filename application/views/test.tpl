@@ -1,7 +1,10 @@
 <h3> {% content.title %} </h3>
 
+<p>
+  {% content.author %}
+  
+</p>
 
-{% content.author %}
 
 <p>
 {% content.sayhello %}
