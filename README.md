@@ -10,5 +10,6 @@ TinyButStrong (TBS) for CodeIgniter
 3. Unzipped codeIgniter and copy all of its contents in your server
 4. Unzipped TinyButStrong and move all of its contents in application/libraries/tbs
 5. Download tbs-for-ci and move all of its contents in the application directory.
+6. Add 'tbs' to application/config/autoload.php. Please use application/config/autoload.txt as a guide.
  
 
