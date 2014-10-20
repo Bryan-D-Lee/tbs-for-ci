@@ -1,1 +1,1 @@
-put plugins and tbs_class.php in this directory.
+put plugins directory and tbs_class.php in this directory.
