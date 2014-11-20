@@ -13,10 +13,10 @@ class CI_Tbs extends clsTinyButStrong
         $CI->load->config('tbs');
         
         $this->SetOption( array(
-								'chr_open'=>config_item('left_delimiter'), 
-								'chr_close'=>config_item('right_delimiter')
-								) 
-						);
+				'chr_open'=>config_item('left_delimiter'), 
+				'chr_close'=>config_item('right_delimiter')
+				) 
+			);
 						
          if ( method_exists( $this, 'assignByRef') )
         {
