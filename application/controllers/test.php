@@ -22,7 +22,7 @@ class Test extends CI_Controller
                         'author' => 'Veedeoo and Geegler',
 						'testing'=> 'testing tbs class',
 						);
-			$this->tbs->view($content,$this->config->item('theme_path_tbs').'test.tpl');				
+			$this->tbs->view($content,test.tpl');				
 						
 					
 	}
