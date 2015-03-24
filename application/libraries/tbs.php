@@ -27,7 +27,7 @@ class CI_Tbs extends clsTinyButStrong
 	
 	public function view($data=array(),$template)
 	{
-		parent::LoadTemplate($template);
+		parent::LoadTemplate(config_item('theme_path_tbs') . $template);
 		parent::MergeBlock('content',$data);
         parent::Show();
 		return true;
